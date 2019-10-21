@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Astronomy"
+             x:Class="Astronomy.MainPage"
+             Title="Care Taker"
+             BackgroundImage="starfield.png">
+
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Button">
+                <Setter Property="TextColor" Value="White" />
+                <Setter Property="BackgroundColor" Value="Gray" />
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <StackLayout Padding="10" Spacing="5">
+        <Label Text="!!!---Here for You---!!!" TextColor="White" HorizontalOptions="Center" />
+        <StackLayout Padding="10" Spacing="5">
+            
+        </StackLayout>
+        <Button x:Name="btnFace" Text="Face-API" />
+        <Button x:Name="btnSunrise" Text="Send-SMS" />
+        <!--<Button x:Name="btnMoonPhase" Text="" />-->
+        <Button x:Name="btnSpaceInfo" Text="Push Notification" />
+        <!--<Button x:Name="btnAbout" Text="" />-->
+    </StackLayout>
+
+</ContentPage>
